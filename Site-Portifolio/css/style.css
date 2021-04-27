@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../img/fundo.jpg");
+    background-attachment: fixed;
+    height: 1200px;
+}
+
+/* HEADER */
+
+header{
+    background-color: #73A8A8;
+    height: 149px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes{
+    width: 226px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 34px;
+}
+
+.redes a img{
+    width: 50px;
+}
+
+.redes div{
+    margin: auto 0;
+}
+
+.logo{
+    width: 10%;
+    text-align: center;
+}
+
+.logo h1{
+    position: absolute;
+    width: 113px;
+    height: 118px;
+    top: 14px;
+    left: 31px;
+}
+.logo a{
+    
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #424242;
+    text-decoration: none;
+}
+
+/* FIM READER */
+/* NAV */
+
+nav{
+    width: 55%;
+    height: 134px;
+    background-color: #C4C4C4;
+    margin: 35px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones{
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+    margin-left: 4%;
+}
+
+.icones div{
+    margin: auto 0;
+}
+
+.icones img{
+    width: 57px;
+}
+
+.icones hr{
+    height: 60%;
+    margin: auto 0;
+    border-color: rgb(61, 61, 61);
+}
+
+nav .pesquisa{
+    height: 25px;
+    width: 200px;
+    position: relative;
+    top: 100px;
+    right: 10px;
+}
+nav .pesquisa input{
+    height: 100%;
+    width: 100%;
+    padding-left: 6px;
+}
+
+/* FIM NAV */
+
+/* MAIN */
+
+main{
+    width: 79.3%;
+    background-color: white;
+    height: 800px;
+    margin: 0 auto;
+}
+
+main .titulo{
+    background-color: #639C9C;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .titulo .foto{
+    background-image: url(../img/sherlock-holmes-detetive.jpg);
+    background-position: center;
+    background-size: 150px;
+    border-radius: 75px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 55px;
+    left: 20px;
+}
+
+main .titulo .texto h3{
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
+    margin: 30px 10px 30px 0;
+}
+
