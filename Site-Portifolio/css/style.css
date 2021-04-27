@@ -7,6 +7,10 @@
     font-family: "Roboto-fino";
     src: url(../fonts/Roboto/Roboto-Thin.ttf);
 }
+@font-face {
+    font-family: "Roboto-medio";
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
 
 body{
     background-image: url("../img/fundo.jpg");
@@ -33,6 +37,12 @@ header{
 
 .redes a img{
     width: 50px;
+}
+
+.redes a img:hover{
+    border-bottom: 5px solid #518383;
+    border-radius: 2px;
+    padding-bottom: 3px;
 }
 
 .redes div{
@@ -149,3 +159,12 @@ main .titulo .texto h3{
     margin: 30px 10px 30px 0;
 }
 
+main .texto-principal{
+    width: 80%;
+    margin: 80px auto;
+}
+
+main .texto-principal p{
+    font-family: "Roboto-medio";
+    text-align: center;
+}
