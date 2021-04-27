@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "Roboto-fino";
+    src: url(../fonts/Roboto/Roboto-Thin.ttf);
+}
+
 body{
     background-image: url("../img/fundo.jpg");
     background-attachment: fixed;
@@ -48,7 +53,7 @@ header{
 }
 .logo a{
     
-    font-family: "Arial";
+    font-family: "Roboto-fino";
     font-style: normal;
     font-weight: 200;
     font-size: 50px;
@@ -96,7 +101,7 @@ nav .pesquisa{
     width: 200px;
     position: relative;
     top: 100px;
-    right: 10px;
+    right: 15px;
 }
 nav .pesquisa input{
     height: 100%;
@@ -135,7 +140,7 @@ main .titulo .foto{
 }
 
 main .titulo .texto h3{
-    font-family: "Arial";
+    font-family: "Roboto-fino";
     font-style: normal;
     font-weight: 100;
     font-size: 70px;
