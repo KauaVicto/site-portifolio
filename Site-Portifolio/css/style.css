@@ -11,11 +11,15 @@
     font-family: "Roboto-medio";
     src: url(../fonts/Roboto/Roboto-Medium.ttf);
 }
+@font-face {
+    font-family: "Louis";
+    src: url(../fonts/LouisGeorgeCafe/Louis-George-Cafe-Bold.ttf);
+}
 
 body{
     background-image: url("../img/fundo.jpg");
     background-attachment: fixed;
-    height: 1200px;
+    height: 1600px;
 }
 
 /* HEADER */
@@ -126,7 +130,6 @@ nav .pesquisa input{
 .main{
     width: 79.3%;
     background-color: white;
-    height: 800px;
     margin: 0 auto;
 }
 
@@ -149,7 +152,13 @@ nav .pesquisa input{
 
 /* MAIN HOME */
 
+#projetos{
+    height: 1200px;
+    
+}
+
 #home{
+    height: 800px;
     display: none;
 }
 
@@ -220,4 +229,70 @@ nav .pesquisa input{
 
 #projetos .foto img{
     width: 100px;
+}
+
+#projetos section{
+    margin: 30px 0;
+}
+
+#projetos .titulo-projetos{
+    background-color: #C4C4C4;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 10px;
+    border-radius: 20px;
+}
+
+#projetos .titulo-projetos h2{
+    font-family: "Louis";
+    font-size: 30px;
+}
+
+#projetos .slides{
+    background-color: #498686;
+    height: 200px;
+    width: 100%;
+}
+
+#projetos .site{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projetos .site img{
+    height: 170px;
+    border-radius: 20px;
+}
+
+#projetos .slide-cardapios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#projetos .cardapio{
+    height: 170px;
+}
+
+#projetos .cardapio img{
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 85px;
+}
+
+#projetos .jogo img{
+    height: 170px;
+}
+
+#projetos .slide-jogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
