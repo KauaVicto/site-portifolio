@@ -19,7 +19,7 @@
 body{
     background-image: url("../img/fundo.jpg");
     background-attachment: fixed;
-    height: 1600px;
+    height: 1300px;
 }
 
 /* HEADER */
@@ -154,12 +154,12 @@ nav .pesquisa input{
 
 #projetos{
     height: 1200px;
-    
+    display: none;
 }
 
 #home{
     height: 800px;
-    display: none;
+    
 }
 
 #home .titulo .foto{
