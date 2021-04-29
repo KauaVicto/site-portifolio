@@ -15,6 +15,14 @@
     font-family: "Louis";
     src: url(../fonts/LouisGeorgeCafe/Louis-George-Cafe-Bold.ttf);
 }
+@font-face {
+    font-family: "Roboto-bold";
+    src: url(../fonts/Roboto/Roboto-BoldCondensed.ttf);
+}
+@font-face {
+    font-family: "Roboto-regular";
+    src: url(../fonts/Roboto/Roboto-Condensed.ttf);
+}
 
 body{
     background-image: url("../img/fundo.jpg");
@@ -153,8 +161,9 @@ nav .pesquisa input{
 /* MAIN HOME */
 
 #projetos{
-    height: 1900px;
-    
+    height: 1500px;
+    position: absolute;
+    margin: 0 10.35%;
 }
 
 #home{
@@ -220,31 +229,97 @@ nav .pesquisa input{
 
 /* MAIN PROJETOS */
 
-#projetos{
-    position: absolute;
-    margin: 0 10.35%;
-}
-
 #projetos .artigos{
     width: 40%;
-    height: 40%;
     background-color: #518383;
     position: absolute;
     border-radius: 20px;
 }
 
+#projetos .artigos h2{
+    color: white;
+    font-family: "Roboto-bold";
+    margin: 10px;
+    font-size: 2em;
+}
+#projetos .artigos .texto{
+    color: white;
+    font-size: 1.5em;
+    font-family: "Roboto-regular";
+}
+#projetos .artigos button{
+    float: right;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: 0px;
+    margin: 0 20px;
+}
+#projetos .artigos a{
+    color: #518383;
+    font-family: "Roboto-regular";
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+/* Artigo 1 */
+
 #projetos .artigo1{
     top: 175px;
     left: 65px;
+    height: 575px;
 }
+
+#projetos .artigo1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+#projetos .artigo1 .texto{
+    width: 90%;
+    margin: 40px auto;
+}
+
+
+/* Artigo 2 */
 
 #projetos .artigo2{
     right: 65px;
     margin: 29% 0;
+    height: 670px;
 }
+#projetos .artigo2 .cardapios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+#projetos .artigo2 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100px;
+}
+#projetos .artigo2 .texto{
+    width: 50%;
+}
+
+/* Artigo 3 */
 
 #projetos .artigo3{
     left: 65px;
     bottom: 56px;
+    height: 575px;
 }
-
+#projetos .artigo3 .img{
+    width: 50%;
+    margin: 0 auto;
+}
+#projetos .artigo3 img{
+    width: 100%;
+}
+#projetos .artigo3 .texto{
+    width: 80%;
+    margin: 40px auto;
+}
