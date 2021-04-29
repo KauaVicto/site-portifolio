@@ -153,13 +153,13 @@ nav .pesquisa input{
 /* MAIN HOME */
 
 #projetos{
-    height: 1200px;
-    display: none;
+    height: 1900px;
+    
 }
 
 #home{
     height: 800px;
-    
+    display: none;
 }
 
 #home .titulo .foto{
@@ -219,4 +219,32 @@ nav .pesquisa input{
 }
 
 /* MAIN PROJETOS */
+
+#projetos{
+    position: absolute;
+    margin: 0 10.35%;
+}
+
+#projetos .artigos{
+    width: 40%;
+    height: 40%;
+    background-color: #518383;
+    position: absolute;
+    border-radius: 20px;
+}
+
+#projetos .artigo1{
+    top: 175px;
+    left: 65px;
+}
+
+#projetos .artigo2{
+    right: 65px;
+    margin: 29% 0;
+}
+
+#projetos .artigo3{
+    left: 65px;
+    bottom: 56px;
+}
 
