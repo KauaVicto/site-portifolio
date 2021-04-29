@@ -246,6 +246,7 @@ nav .pesquisa input{
     color: white;
     font-size: 1.5em;
     font-family: "Roboto-regular";
+    text-align: center;
 }
 #projetos .artigos button{
     float: right;
