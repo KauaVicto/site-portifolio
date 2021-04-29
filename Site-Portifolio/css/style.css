@@ -229,6 +229,17 @@ nav .pesquisa input{
 
 /* MAIN PROJETOS */
 
+#projetos .titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#projetos .titulo img{
+    width: 100px;
+    margin-left: 20px;
+}
+
 #projetos .artigos{
     width: 40%;
     background-color: #518383;
