@@ -164,11 +164,11 @@ nav .pesquisa input{
     height: 1500px;
     position: absolute;
     margin: 0 10.35%;
+    display: none;
 }
 
 #home{
     height: 800px;
-    display: none;
 }
 
 #home .titulo .foto{

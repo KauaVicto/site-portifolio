@@ -6,7 +6,7 @@ let mainProjetos = document.getElementById('projetos')
 function PageProjetos(){
     mainHome.style.display = 'none'
     mainProjetos.style.display = 'block'
-    document.body.style.height = '1600px'
+    document.body.style.height = '1900px'
 }
 
 function PageHome(){
