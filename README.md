@@ -1,3 +1,3 @@
 # site-portifolio
  
-Meu site hospedado [Site](https://rebbd.github.io/site-portifolio/Site-Portifolio)
+Meu site hospedado: https://rebbd.github.io/site-portifolio/Site-Portifolio
