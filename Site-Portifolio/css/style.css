@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@keyframes fade-in{
+    from{opacity: o}
+    to{opacity: 1}
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -169,6 +174,11 @@ nav .pesquisa input{
     justify-content: space-between;
 }
 
+.main .titulo img{
+    width: 100px;
+    margin-left: 20px;
+}
+
 .main .titulo .texto h3{
     font-family: "Roboto-fino";
     font-style: normal;
@@ -190,18 +200,6 @@ nav .pesquisa input{
 
 #home{
     height: 800px;
-}
-
-#home .titulo .foto{
-    background-image: url(../img/sherlock-holmes-detetive.jpg);
-    background-position: center;
-    background-size: 150px;
-    border-radius: 75px;
-    width: 150px;
-    height: 150px;
-    position: relative;
-    top: 55px;
-    left: 20px;
 }
 
 #home .texto-principal{
@@ -259,16 +257,16 @@ nav .pesquisa input{
     align-items: center;
 }
 
-#projetos .titulo img{
-    width: 100px;
-    margin-left: 20px;
-}
-
 #projetos .artigos{
     width: 40%;
     background-color: #518383;
     position: absolute;
     border-radius: 20px;
+    opacity: 0;
+}
+
+body.loaded #projetos .artigos{
+    animation-play-state: running;
 }
 
 #projetos .artigos h2{
@@ -305,6 +303,7 @@ nav .pesquisa input{
     top: 175px;
     left: 65px;
     height: 575px;
+    animation: fade-in 1s normal forwards ease-in-out;
 }
 
 #projetos .artigo1 img{
@@ -323,6 +322,7 @@ nav .pesquisa input{
     right: 65px;
     margin: 29% 0;
     height: 670px;
+    animation: fade-in 2s normal forwards ease-in-out;
 }
 #projetos .artigo2 .cardapios{
     display: flex;
@@ -347,6 +347,7 @@ nav .pesquisa input{
     left: 65px;
     bottom: 56px;
     height: 575px;
+    animation: fade-in 3s normal forwards ease-in-out;
 }
 #projetos .artigo3 .img{
     width: 50%;
