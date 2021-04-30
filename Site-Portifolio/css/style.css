@@ -264,8 +264,12 @@ nav .pesquisa input{
     border-radius: 20px;
     opacity: 0;
 }
+#projetos .artigos img{
+    opacity: 0;
+    animation: fade-in 4s normal forwards ease-in-out;
+}
 
-body.loaded #projetos .artigos{
+body.loaded #projetos{
     animation-play-state: running;
 }
 
