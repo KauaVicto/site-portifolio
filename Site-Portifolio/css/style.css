@@ -214,6 +214,9 @@ nav .pesquisa input{
     font-family: "Roboto-medio";
     text-align: center;
 }
+#home .texto ul{
+    font-family: "Roboto-medio";
+}
 
 #home .texto-secundario{
     width: 100%;

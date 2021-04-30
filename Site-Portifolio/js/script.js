@@ -3,6 +3,7 @@ let menuProjetos = document.getElementById('menu-projetos')
 let mainHome = document.getElementById('home')
 let mainProjetos = document.getElementById('projetos')
 
+
 let tagHome = document.getElementById('tag-home')
 let tagProjetos = document.getElementById('tag-projetos')
 
@@ -34,3 +35,4 @@ function MostrarProjetos(){
 function TirarProjetos(){
     tagProjetos.style.display = 'none'
 }
+
