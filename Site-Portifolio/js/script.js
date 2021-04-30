@@ -10,13 +10,13 @@ let tagProjetos = document.getElementById('tag-projetos')
 function PageProjetos(){
     mainHome.style.display = 'none'
     mainProjetos.style.display = 'block'
-    document.body.style.height = '1900px'
+    document.body.style.height = '2050px'
 }
 
 function PageHome(){
     mainHome.style.display = 'block'
     mainProjetos.style.display = 'none'
-    document.body.style.height = '1300px'
+    document.body.style.height = '1350px'
     
 }
 
