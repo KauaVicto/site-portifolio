@@ -104,12 +104,28 @@ nav{
     margin-left: 4%;
 }
 
-.icones div{
-    margin: auto 0;
+.icones div.container{
+    width: 110px;
+    height: 110%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.icones img{
+.icones div.tag{
+    height: 43px;
+    width: 100%;
+}
+
+.icones div.tag img{
+    display: none;
+}
+
+
+.icones img.icone{
     width: 57px;
+    margin-top: 36px;
 }
 
 .icones hr{
