@@ -29,20 +29,35 @@
 
     <nav>
         <div class="icones">
-            <div>
-                <img src="img/icon-home.png" alt="" id="menu-home" onclick="PageHome()">
+            <div class="container">
+                <img class="icone" src="img/icon-home.png" alt="" id="menu-home" onclick="PageHome()" onmouseover="MostrarHome()" onmouseout="TirarHome()">
+                <div class="tag">
+                    <img id="tag-home" src="img/text-home.png" alt="">
+                </div>
             </div>
             <hr>
-            <div>
-                <img src="img/icon-curiosidade.png" alt="" id="menu-curiosodades">
+
+            <div class="container">
+                <img class="icone" src="img/icon-curiosidade.png" alt="" id="menu-curiosodades">
+                <div class="tag">
+                    <img src="img/text-home.png" alt="">
+                </div>
             </div>
             <hr>
-            <div>
-                <img src="img/icon-games.png" alt="" id="menu-games">
+
+            <div class="container">
+                <img class="icone" src="img/icon-games.png" alt="" id="menu-games">
+                <div class="tag">
+                    <img src="img/text-home.png" alt="">
+                </div>
             </div>
             <hr>
-            <div>
-                <img src="img/icon-projetos.png" alt="" id="menu-projetos" onclick="PageProjetos()">
+
+            <div class="container">
+                <img class="icone" src="img/icon-projetos.png" alt="" id="menu-projetos" onclick="PageProjetos()" onmouseover="MostrarProjetos()" onmouseout="TirarProjetos()">
+                <div class="tag">
+                    <img id="tag-projetos" src="img/text-projetos.png" alt="">
+                </div>
             </div>
         </div>
         <div class="pesquisa">
