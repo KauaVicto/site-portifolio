@@ -338,6 +338,7 @@ body.loaded #projetos{
     justify-content: space-around;
     align-items: center;
     margin: 50px 0;
+    max-height: 200px;
 }
 #projetos .artigo2 img{
     width: 200px;
@@ -345,9 +346,19 @@ body.loaded #projetos{
     object-fit: cover;
     object-position: top;
     border-radius: 100px;
+    top: 0px;
+    left: 0px;
+    transition: 1s;
+}
+#projetos .artigo2 img:hover{
+    width: 400px;
+    height: 714px;
+    border-radius: 0;
+    z-index: 1;
 }
 #projetos .artigo2 .texto{
     width: 50%;
+    min-width: 50%;
 }
 
 /* Artigo 3 */
