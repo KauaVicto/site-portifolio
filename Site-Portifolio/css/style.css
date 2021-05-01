@@ -126,6 +126,8 @@ nav{
 .icones div.tag{
     height: 43px;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .icones div.tag img{
